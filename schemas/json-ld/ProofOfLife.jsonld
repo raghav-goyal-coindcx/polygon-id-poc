@@ -9,7 +9,7 @@
         "@context": {
           "@propagate": true,
           "@protected": true,
-          "vocab": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfLife.md",
+          "vocab": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/vocab/ProofOfLife.md",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "dob": {
             "@id": "vocab:dob",
@@ -24,7 +24,7 @@
             "@type": "xsd:string"
           }
         },
-        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfLife.md"
+        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfLife.jsonld"
       }
     }
   ]

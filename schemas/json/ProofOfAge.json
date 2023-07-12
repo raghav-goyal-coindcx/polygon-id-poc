@@ -86,8 +86,7 @@
         "dob": {
           "description": "DOB of the Holder",
           "title": "Date of Birth",
-          "format": "date",
-          "type": "string"
+          "type": "integer"
         },
         "id": {
           "description": "Stores the DID of the subject that owns the credential",

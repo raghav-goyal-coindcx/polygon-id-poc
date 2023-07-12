@@ -13,7 +13,7 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "dob": {
             "@id": "vocab:dob",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           },
           "email": {
             "@id": "vocab:email",

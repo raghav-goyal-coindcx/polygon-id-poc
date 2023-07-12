@@ -13,7 +13,7 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "dob": {
             "@id": "vocab:dob",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           }
         },
         "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfAge.md"

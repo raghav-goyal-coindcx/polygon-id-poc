@@ -24,7 +24,7 @@
             "@type": "xsd:string"
           }
         },
-        "@id": "urn:uuid:4736b1fd-5fe8-4f4e-990e-6163c797d6df"
+        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfLife.md"
       }
     }
   ]

@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfLife": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "vocab": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfAge.md",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "dob": {
+            "@id": "vocab:dob",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfAge.md"
+      }
+    }
+  ]
+}

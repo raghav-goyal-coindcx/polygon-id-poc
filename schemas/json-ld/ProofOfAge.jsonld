@@ -16,7 +16,7 @@
             "@type": "xsd:integer"
           }
         },
-        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfAge.jsonld"
+        "@id": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfAge.jsonld#ProofOfAge"
       }
     }
   ]

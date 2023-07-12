@@ -80,23 +80,20 @@
       "type": "boolean"
     },
     "credentialSubject": {
+      "type": "object",
       "description": "Stores the data of the credential",
+      "required": ["id", "dob"],
       "title": "Credential subject",
       "properties": {
-        "dob": {
-          "description": "DOB of the Holder",
-          "title": "Date of Birth",
-          "type": "integer"
-        },
         "id": {
-          "description": "Stores the DID of the subject that owns the credential",
           "title": "Credential subject ID",
-          "format": "uri",
-          "type": "string"
+          "type": "string",
+          "format": "uri"
+        },
+        "dob": {
+          "type": "integer"
         }
-      },
-      "required": ["id", "dob"],
-      "type": "object"
+      }
     }
   }
 }

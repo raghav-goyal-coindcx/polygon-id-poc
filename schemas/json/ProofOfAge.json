@@ -81,9 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "description": "Stores the data of the credential",
       "required": ["id", "dob"],
-      "title": "Credential subject",
       "properties": {
         "id": {
           "title": "Credential subject ID",

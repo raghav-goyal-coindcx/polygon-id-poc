@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfLife": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "vocab": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/ProofOfLife.md",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "dob": {
+            "@id": "vocab:dob",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "vocab:email",
+            "@type": "xsd:string"
+          },
+          "full-name": {
+            "@id": "vocab:full-name",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "urn:uuid:4736b1fd-5fe8-4f4e-990e-6163c797d6df"
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json-ld/Verified%20Email.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/raghav-goyal-coindcx/polygon-id-poc/main/schemas/json/Verified%20Email.json"
         },
         "version": "1.0",
         "type": "VerifiedEmail"
